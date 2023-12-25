@@ -43,7 +43,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./h/nmys2.json"
-    },{
+    },{"key":"drpy_js_6V新版[磁]","name":"🌜宝盒4KHDR","type":3,"api":"./lib/drpy2.min.js","ext":"./js/6V新版[磁].js"},{
       "key": "csp_好戏",
       "name": "🌹好戏开场",
       "type": 3,
@@ -521,9 +521,7 @@
 {"key":"drpy_js_武享吧","name":"体育 | 武享吧[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/武享吧.js"},
 {"key":"drpy_rrdyw","name":"影视 | rrdyw[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/rrdyw.js"},
 {"key":"drpy_js_4KHDR[磁]","name":"磁力 | 4KHDR[磁][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/4KHDR[磁].js"},
-{"key":"drpy_js_6V新版[磁]","name":"磁力 | 6V新版[磁][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/6V新版[磁].js"},
 {"key":"drpy_js_磁力熊[磁]","name":"磁力 | 磁力熊[磁][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/磁力熊[磁].js"},
-{"key":"好趣网","name":"电视 | 好趣网[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/好趣网.js"},
 {"key":"drpy_js_小纸条","name":"小纸条[测试js]","type":3,"api":"./js/小纸条一级推送测试.js"},
 {"key":"drpy_js_ikanbot1","name":"聚搜 | 爱看机器人1[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱看机器人.js"},
 {"key":"drpy_js_ikanbot2","name":"聚搜 | 爱看机器人2[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/ikanbot2.js"},

@@ -5,8 +5,10 @@
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     "lives": [
         {
-            "name": "直播名字自定义",
-            "url": "直播链接自定义"
+            "name": "📡直播名字",
+            "type": 0,
+            "url": "直播地址",
+            "ua": ""
         }
     ],
     "sites": [
@@ -39,7 +41,7 @@
             "name": "😊我的┃网盘",
             "type": 3,
             "api": "csp_PanShare",
-            "searchable": 0,
+            "searchable": 1,
             "changeable": 0
         },
         {
@@ -335,6 +337,15 @@
             "changeable": 1
         },
         {
+            "key": "csp_Kan90",
+            "name": "😇最全┃短剧",
+            "type": 3,
+            "api": "csp_Kan90",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
             "key": "短剧AI",
             "name": "🤔短剧┃AI",
             "type": 3,
@@ -424,16 +435,54 @@
             }
         },
         {
+            "key": "快映视频",
+            "name": "🍑快映┃APP",
+            "type": 3,
+            "api": "csp_Appfox",
+            "ext": {
+                "host": "https://snys2.xyz/",
+                "timeout": 15,
+                "ver": 2
+            }
+        },
+        {
+            "key": "星空影视",
+            "name": "🍊星空┃APP",
+            "type": 3,
+            "api": "csp_Appfox",
+            "ext": {
+                "host": "http://fox.qwqfun.com"
+            }
+        },
+        {
+            "key": "极兔影视",
+            "name": "🐰极兔┃APP",
+            "type": 3,
+            "api": "csp_Appfox",
+            "ext": {
+                "host": "http://www.mzd.asia"
+            }
+        },
+        {
+            "key": "23影视PP",
+            "name": "🍅23┃APP",
+            "type": 3,
+            "api": "csp_Appfox",
+            "ext": {
+                "host": "http://a.cfys.xn--fiqs8s/"
+            }
+        },
+        {
             "key": "金牌影院",
             "name": "🥇金牌┃APP",
             "type": 3,
-            "api": "csp_AppMuou",
             "searchable": 1,
             "changeable": 1,
+            "api": "csp_AppGet",
             "ext": {
-                "host": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
-                "name": "金牌影院（请断网再安装）",
-                "version": "4.2.0"
+                "host": "https://dtqj1.gg1080.com:443/dtjp.txt",
+                "datakey": "kecbio48dsq131ed",
+                "api": "2"
             }
         },
         {

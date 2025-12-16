@@ -1,0 +1,505 @@
+{
+    "logo": "./assets/logo2025121201.png",
+    "wallpaper": "https://深色壁纸.xxooo.cf",
+    "spider": "./jar/dongli-spider.jar",
+    "sites": [
+        {
+            "key": "Douban",
+            "name": "📚豆瓣｜推荐",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "filterable": 1
+        },
+        {
+            "key": "配置",
+            "name": "⚙️配置｜中心",
+            "type": 3,
+            "api": "csp_ConfigCenter",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./config/configcenter.json"
+        },
+        {
+            "key": "dytt",
+            "name": "🌌电影｜天堂",
+            "type": 1,
+            "api": "http://127.0.0.1:9978/proxy?do=dytt",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "jianpian",
+            "name": "🎬贱片｜P2P",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "./config/jianpian.json"
+        },
+        {
+            "key": "glod",
+            "name": "🥇金牌 | 影视",
+            "type": 3,
+            "api": "csp_Glod",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {}
+        },
+        {
+            "key": "pingguo",
+            "name": "🍎苹果｜影视",
+            "type": 3,
+            "api": "csp_PingGuo",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "siteUrl": "http://asp.xpgtv.com",
+                "filterKeywords": [
+                    "及时雨",
+                    "及時雨"
+                ]
+            }
+        },
+        {
+            "key": "Xb6v",
+            "name": "🧲新6V｜磁力",
+            "type": 3,
+            "api": "csp_Xb6v",
+            "searchable": 1,
+            "filterable": 1
+        },
+        {
+            "key": "樱花动漫",
+            "name": "🌸樱花｜动漫",
+            "type": 3,
+            "api": "csp_YHDM",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        },
+        {
+            "key": "CNTV",
+            "name": "📰CNTV｜新闻",
+            "type": 3,
+            "api": "csp_CntvSpider",
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "changeable": 1
+        },
+        {
+            "key": "bilibili",
+            "name": "🖥️哔哩｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "json": "./config/bilibili.json",
+                "cookie": ""
+            }
+        },
+        {
+            "key": "BiliLive",
+            "name": "🖥️哔哩｜直播",
+            "type": 3,
+            "api": "csp_BiliLive",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "Huya",
+            "name": "🐯虎牙｜直播",
+            "type": 3,
+            "api": "csp_Huya",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "Douyu",
+            "name": "🐟斗鱼｜直播",
+            "type": 3,
+            "api": "csp_Douyu",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "Libvio",
+            "name": "☁立播｜4K",
+            "type": 3,
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": "https://www.libvio.link"
+        },
+        {
+            "key": "KuaKeS",
+            "name": "☁夸社｜4K",
+            "type": 3,
+            "api": "csp_KuaKeS",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+        },
+        {
+            "key": "seedhub",
+            "name": "☁SeedHub｜4K",
+            "type": 3,
+            "api": "csp_SeedHub",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "push_agent",
+            "name": "📢推送｜中心",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "changeable": 0,
+            "timeout": 60
+        },
+        {
+            "key": "本地文件",
+            "name": "🗂️本地｜文件",
+            "type": 3,
+            "searchable": 0,
+            "changeable": 0,
+            "api": "csp_Local"
+        },
+        {
+            "key": "localdb",
+            "name": "🗄️本地数据库",
+            "type": 3,
+            "api": "csp_LocalDB",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": ""
+        },
+        {
+            "key": "networkdb",
+            "name": "🗄️网络数据库",
+            "type": 3,
+            "api": "csp_NetworkDB",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": ""
+        },
+        {
+            "key": "商店",
+            "name": "🏬商店｜更新",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "oval",
+                "ratio": 1.1
+            },
+            "ext": "./config/market.json"
+        },
+        {
+            "key": "Tg123Search",
+            "name": "Tg123Search",
+            "type": 3,
+            "api": "csp_Tg123Search",
+            "hide": 1,
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {}
+        },
+        {
+            "key": "TgbaiduSearch",
+            "name": "TgbaiduSearch",
+            "type": 3,
+            "api": "csp_TgbaiduSearch",
+            "hide": 1,
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {}
+        },
+        {
+            "key": "Tg189Search",
+            "name": "Tg189Search",
+            "type": 3,
+            "api": "csp_Tg189Search",
+            "hide": 1,
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {}
+        },
+        {
+            "key": "TgQuarkSearch",
+            "name": "TgQuarkSearch",
+            "type": 3,
+            "api": "csp_TgQuarkSearch",
+            "hide": 1,
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {}
+        },
+        {
+            "key": "TgSearchQuark",
+            "name": "☁TgSearchQuark┃网盘",
+            "type": 3,
+            "api": "csp_TgSearchQuark",
+            "searchable": 1,
+            "hide": 1,
+            "filterable": 0,
+            "ext": {
+                "api_urls": [
+                    "https://api.jkai.de/api/search",
+                    "https://psweb.banye.tech:7777/api/search",
+                    "https://so.566987.xyz/api/search",
+                    "http://152.69.222.142:8088/api/search"
+                ],
+                "sources": [
+                    "夸克"
+                ]
+            }
+        },
+        {
+            "key": "TgSearchUc",
+            "name": "☁TgSearchUc┃网盘",
+            "type": 3,
+            "api": "csp_TgSearchUc",
+            "searchable": 1,
+            "hide": 1,
+            "filterable": 0,
+            "ext": {
+                "api_urls": [
+                    "https://api.jkai.de/api/search",
+                    "https://psweb.banye.tech:7777/api/search",
+                    "https://so.566987.xyz/api/search",
+                    "http://152.69.222.142:8088/api/search"
+                ],
+                "sources": [
+                    "UC"
+                ]
+            }
+        },
+        {
+            "key": "TgSearchBaidu",
+            "name": "☁TgSearchBaidu┃网盘",
+            "type": 3,
+            "api": "csp_TgSearchBaidu",
+            "searchable": 1,
+            "filterable": 0,
+            "hide": 1,
+            "ext": {
+                "api_urls": [
+                    "https://api.jkai.de/api/search",
+                    "https://psweb.banye.tech:7777/api/search",
+                    "https://so.566987.xyz/api/search",
+                    "http://152.69.222.142:8088/api/search"
+                ],
+                "sources": [
+                    "百度"
+                ]
+            }
+        },
+        {
+            "key": "TgSearch123",
+            "name": "☁TgSearch123┃网盘",
+            "type": 3,
+            "api": "csp_TgSearch123",
+            "searchable": 1,
+            "hide": 1,
+            "filterable": 0,
+            "ext": {
+                "api_urls": [
+                    "https://api.jkai.de/api/search",
+                    "https://psweb.banye.tech:7777/api/search",
+                    "https://so.566987.xyz/api/search",
+                    "http://152.69.222.142:8088/api/search"
+                ],
+                "sources": [
+                    "123盘"
+                ]
+            }
+        },
+        {
+            "key": "TgSearch189",
+            "name": "☁TgSearch189┃网盘",
+            "type": 3,
+            "api": "csp_TgSearch189",
+            "searchable": 1,
+            "filterable": 0,
+            "hide": 1,
+            "ext": {
+                "api_urls": [
+                    "https://api.jkai.de/api/search",
+                    "https://psweb.banye.tech:7777/api/search",
+                    "https://so.566987.xyz/api/search",
+                    "http://152.69.222.142:8088/api/search"
+                ],
+                "sources": [
+                    "天翼"
+                ]
+            }
+        },
+        {
+            "key": "TgSearch139",
+            "name": "☁TgSearch139┃网盘",
+            "type": 3,
+            "api": "csp_TgSearch139",
+            "searchable": 1,
+            "hide": 1,
+            "filterable": 0,
+            "ext": {
+                "api_urls": [
+                    "https://api.jkai.de/api/search",
+                    "https://psweb.banye.tech:7777/api/search",
+                    "https://so.566987.xyz/api/search",
+                    "http://152.69.222.142:8088/api/search"
+                ],
+                "sources": [
+                    "移动"
+                ]
+            }
+        }
+    ],
+    "headers": [
+        {
+            "host": "mgtv.ottiptv.cc",
+            "header": {
+                "User-Agent": "okHttp/Mod-1.4.0.0",
+                "Referer": "https://mgtv.ottiptv.cc/"
+            }
+        }
+    ],
+    "lives": [
+        {
+            "name": "冰茶",
+            "type": 0,
+            "playerType": 2,
+            "url": "https://fy.188766.xyz/?ip=&mima=mianfeidehaimaiqian&json=true",
+            "ua": "bingcha/1.1(mianfeifenxiang)"
+        }
+    ],
+    "parses": [
+        {
+            "name": "解析聚合",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "777",
+            "type": 0,
+            "url": "https://www.huaqi.live/?url="
+        },
+        {
+            "name": "jsonplayer",
+            "type": 0,
+            "url": "https://jx.jsonplayer.com/player/?url="
+        },
+        {
+            "name": "xmflv",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url="
+        }
+    ],
+    "flags": [
+        "youku",
+        "tudou",
+        "qq",
+        "qiyi",
+        "iqiyi",
+        "leshi",
+        "letv",
+        "sohu",
+        "imgo",
+        "mgtv",
+        "bilibili",
+        "pptv",
+        "PPTV",
+        "migu"
+    ],
+    "doh": [
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.4.4",
+                "8.8.8.8"
+            ]
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "AdGuard",
+            "url": "https://dns.adguard.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141"
+            ]
+        },
+        {
+            "name": "DNSWatch",
+            "url": "https://resolver2.dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40"
+            ]
+        },
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-query",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ]
+}

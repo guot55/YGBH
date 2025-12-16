@@ -1,0 +1,188 @@
+[
+    {
+        "name": "推荐",
+        "list": [
+            {
+                "name": "Go引擎",
+                "key": "mediaproxyProbe",
+                "icon": "",
+                "des": "探测"
+            },
+            {
+                "name": "Java引擎",
+                "key": "javaEnginetmProbe",
+                "icon": "",
+                "des": "探测"
+            },
+            {
+                "name": "引擎",
+                "key": "engineSelection",
+                "icon": "",
+                "des": "切换引擎"
+            },
+            
+            {
+                "name": "凯速",
+                "key": "loginOrlogooutKStore",
+                "icon": "",
+                "des": "登录｜退出"
+            },
+            {
+                "name": "Cookie",
+                "key": "backupCookieToKStore",
+                "icon": "",
+                "des": "备份到凯速"
+            },
+            {
+                "name": "Cookie",
+                "key": "downloadCookieToLocal",
+                "icon": "",
+                "des": "从凯速下载到本地"
+            }
+        ]
+    },
+    {
+        "name": "数据库",
+        "list": [
+            {
+                "name": "本地数据库映射文件",
+                "key": "localDatabaseMapping",
+                "icon": "",
+                "des": "设置"
+            },
+            {
+                "name": "网络数据库映射文件",
+                "key": "networkDatabaseMapping",
+                "icon": "",
+                "des": "设置"
+            },
+            {
+                "name": "网络数据库",
+                "key": "networkDatabaseManagement",
+                "icon": "",
+                "des": "管理"
+            }
+        ]
+    },
+    {
+        "name": "百度网盘",
+        "list": [
+            {
+                "name": "清除cookie",
+                "key": "cleanBaiduCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "设置cookie",
+                "key": "setBaiduCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "多线程",
+                "key": "setBaiduMultiThread",
+                "icon": "",
+                "des": ""
+            }
+        ]
+    },
+    {
+        "name": "UC网盘",
+        "list": [
+            {
+                "name": "清除Cookie",
+                "key": "cleanUcCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "设置Cookie",
+                "key": "setUcCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "多线程",
+                "key": "setUcMultiThread",
+                "icon": "",
+                "des": ""
+            }
+        ]
+    },
+    {
+        "name": "夸克网盘",
+        "list": [
+            {
+                "name": "清除cookie",
+                "key": "cleanQuarkCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "设置cookie",
+                "key": "setQuarkCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "多线程",
+                "key": "setQuarkMultiThread",
+                "icon": "",
+                "des": ""
+            }
+        ]
+    },
+    {
+        "name": "天翼云盘",
+        "list": [
+            {
+                "name": "清除cookie",
+                "key": "cleanTianyiCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "设置cookie",
+                "key": "setTianyiCookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "多线程",
+                "key": "setTianyiMultiThread",
+                "icon": "",
+                "des": ""
+            }
+        ]
+    },
+    {
+        "name": "123云盘",
+        "list": [
+            {
+                "name": "清除cookie",
+                "key": "clean123Cookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "清除账号信息",
+                "key": "clean123UserInfo",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "设置cookie",
+                "key": "set123Cookie",
+                "icon": "",
+                "des": ""
+            },
+            {
+                "name": "多线程",
+                "key": "set123MultiThread",
+                "icon": "",
+                "des": ""
+            }
+        ]
+    }
+]
